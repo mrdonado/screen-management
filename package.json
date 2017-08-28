@@ -1,13 +1,13 @@
 {
   "name": "screen-management",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./src/main.js",
   "scripts": {
     "start": "node ./src/main.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fjrd84/"
+    "url": "https://github.com/fjrd84/screen-management"
   },
   "author": "F. Javier R. Donado <jdonado@jdonado.com> (http://www.jdonado.com/)",
   "license": "MIT",
@@ -18,6 +18,7 @@
   "keywords": [
     "power management",
     "display",
+    "sleep",
     "screen",
     "windows"
   ]
