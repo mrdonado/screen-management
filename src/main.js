@@ -53,6 +53,6 @@ module.exports = {
   },
   turnOn: () => {
     platformCheck();
-    platforms[os.platform()].turnOff();
+    platforms[os.platform()].turnOn();
   }
 };
