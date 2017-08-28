@@ -1,0 +1,24 @@
+{
+  "name": "screen-management",
+  "version": "0.0.0",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fjrd84/"
+  },
+  "author": "F. Javier R. Donado <jdonado@jdonado.com> (http://www.jdonado.com/)",
+  "license": "MIT",
+  "description": "A node module to turn the system's display on and off.",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "keywords": [
+    "power management",
+    "display",
+    "screen",
+    "windows"
+  ]
+}
