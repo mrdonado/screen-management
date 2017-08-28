@@ -19,7 +19,7 @@ Or if you prefer yarn to npm install:
 You can use this module within your code like this.
 
 ```js
-import screen from 'screen-management';
+const screen = require('screen-management');
 
 // Call this function to turn the computer screen to sleep
 screen.turnOff(); 
