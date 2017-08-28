@@ -2,7 +2,7 @@
 
 [An npm module](https://www.npmjs.com/package/screen-management) to turn the computer screen off and on again.
 
-It only works on windows systems for now, but a Linux version is coming soon.
+It only works on Windows systems for now, but a Linux version is coming soon.
 
 ## Install the module
 
