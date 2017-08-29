@@ -59,14 +59,15 @@ const platformCheck = () => {
 };
 //---------------------/UTILITIES---------------------------//
 
+// Check the compatibility for the current platform when the module loads.
+platformCheck();
 
+// Public module API
 module.exports = {
   turnOff: () => {
-    platformCheck();
     platforms[os.platform()].turnOff();
   },
   turnOn: () => {
-    platformCheck();
     platforms[os.platform()].turnOn();
   }
 };
