@@ -3,6 +3,19 @@ const {
 } = require('child_process'),
   os = require('os');
 
+//---------------------LINUX-------------------------------//
+const linux = {};
+
+linux.turnOff = () => {
+  exec('export DISPLAY=:0; xset dpms force suspend');
+};
+
+linux.turnOn = () => {
+  exec('export DISPLAY=:0; xset dpms force on');
+};
+
+//---------------------/LINUX-------------------------------//
+
 
 //---------------------WIN32-------------------------------//
 const win32 = {};
@@ -20,7 +33,8 @@ win32.turnOn = () => {
 
 // Functions of all the platforms put together
 const platforms = {
-  win32
+  win32,
+  linux
 };
 
 
